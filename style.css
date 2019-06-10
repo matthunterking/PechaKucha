@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(152, 216, 236);
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+#startButton {
+  font-size: 30px;
+  margin: 1rem;
+  padding: 0 1rem;
+  background-color: orange;
+  outline: none;
+}
+
+#timerDisplay {
+  font-size: 80px;
+}
+
+.slideDisplay {
+  font-size: 50px;
+}
