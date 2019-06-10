@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
         clearInterval(timerInterval);
         updateSlideNumber();
       }
-    }, 1000);
+    }, 10);
   };
 
   const reset = () => {
@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", () => {
     clearInterval(timerInterval);
     timer = 21;
     $timerDisplay.innerHTML = timer;
-    $body.style.backgroundColor = "rgb(152, 216, 236)";
+    $body.style.backgroundColor = "#333745";
     $audio.src = "./ding.mp3";
     isRunning = false;
   };
@@ -41,7 +41,8 @@ window.addEventListener("DOMContentLoaded", () => {
     if (slideNumber < 21) {
       startClock($timerDisplay, $slideNumberDisplay);
     } else {
-      $body.style.backgroundColor = "red";
+      $body.style.backgroundColor = "#fb7670";
+      $body.style.color = "white";
       $audio.src = "./gong.mp3";
       $audio.play();
     }

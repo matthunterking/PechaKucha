@@ -3,17 +3,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(152, 216, 236);
+  background-color: #333745;
   font-family: "Roboto Mono", monospace;
   font-size: 30px;
   text-align: center;
+  color: white;
 }
 
 #startButton {
   font-size: 30px;
   margin: 1rem;
   padding: 1rem;
-  background-color: orange;
+  background-color: #fb7670;
+  color: #333745;
   outline: none;
 }
 
