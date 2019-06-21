@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
         clearInterval(timerInterval);
         updateSlideNumber();
       }
-    }, 10);
+    }, 1000);
   };
 
   const reset = () => {
