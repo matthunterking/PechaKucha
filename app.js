@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", () => {
     slideNumber++;
     $slideNumberDisplay.innerHTML = slideNumber;
     $audio.play();
-    if (slideNumber < 21) {
+    if (slideNumber < 22) {
       startClock($timerDisplay, $slideNumberDisplay);
     } else {
       $body.style.backgroundColor = "#fb7670";
